@@ -43,31 +43,41 @@ Detailed project report
 
 *Be very brief here, if necessary provide and refer to an appendix. You can also use footnotes.^[This is a footnote, which can be used for more information which maybe a reader.]*
 
-Your report shall follow an "inverted pyramid" story format [see @Dykes2019EffectiveDataStorytelling] .
+*Your report shall follow an **"inverted pyramid"** story format [see @Dykes2019EffectiveDataStorytelling].*
 
-Remove all this text and put you content.^[Using this template is not mandatory.]
+*Remove all this text and put you content.^[Using this template is not mandatory.]*
 
 :::{.callout-note}
-If the final report has sufficient quality, it can be published to the web directly from here. 
+If the final report has sufficient quality, it can be published to the web directly from here with a few clicks.  
 If you plan that, check for licences of usage for figures you use and potential data privacy violations when you have data in the repository before.
 :::
 
 
 ## Main Insight
 
-*Better give a more substantial title!*
+*Better give a more substantive title!*
 
-This should present you main point visually with one (or more) figures.
+This should present your main point visually with at least one but probably more figures, like @fig-mainvisual
+
+:::{.callout-important collapse=false appearance='default' icon=true}
+Key evaluation criteria are: 
+
+- I your main insight is 
+    - well motivated, 
+    - well told,
+    - well supported by data
+    - appropriately visualized.
+- The insight itself need not be very deep or novel. However, it should also not be trvial. 
+
+:::
 
 ```{r}
-#| label: fig-mainvisualization
+#| label: fig-mainvisual
 #| fig-cap: "The figure shows this ... (but is just a placeholder)."
 mpg |> ggplot(aes(displ, hwy)) + geom_point()
 ```
 
-@fig-mainvisualization shows the insight.
-
-*Refer here to*
+*In this core section, refer here to*
 
 - *Additional visualizations and analysis below*
 - *Interactive Visualization / Dashboard below*

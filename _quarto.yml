@@ -1,2 +1,7 @@
-project:
+project: 
   type: website
+  
+# This file specifies that the output of the whole repository is a website. 
+# When rendered it creates the directory _site which includes the whole HTML-files
+# From there the whole project can be published as a public website using GitHub-Pages with a few clicks
+# This is voluntary but should be done only after finishing the course

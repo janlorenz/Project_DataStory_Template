@@ -9,7 +9,7 @@ format:
 
 Change this file to become your presentation slide deck. 
 
-The slide deck which tells the data story with visuals in a *narrative structure*^[See *Effective Data Storytelling*, Brent Dykes (2020), Figure 4.3.]. 
+The slide deck which tells the data story with visuals in a ***narrative structure***^[See *Effective Data Storytelling*, Brent Dykes (2020), Figure 4.3.]. 
 
 
 ## This deck is made with quarto revealjs
